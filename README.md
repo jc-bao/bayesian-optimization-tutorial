@@ -50,9 +50,6 @@ substantial performance improvements in problems with noise, multi-fidelity obse
 **Cons**
 Little gain in noise-free evaluation
 
-## Q&A
-
-> What is mutli-fidelity?
 
 #### Entropy Search and Predictive Entropy Search (ES/PES)
 
@@ -74,4 +71,23 @@ useful in exotic problems
 **Cons**
 the entropy of the maximizer no closed form
 hard to estimate and optimize
+
+## Plan
+
+ - [ ] 2D object reconstruction
+ - [ ] 2D object reorientation
+ - [ ] 3D object reconstruction
+ - [ ] 3D object reorientation
+
+
+## Q&A
+
+> What is mutli-fidelity?
+> A: many information source with different fidelity
+
+> How to deal with noisy x?
+
+> How to deal with continous x?
+
+> How to integrate our task into acquisition function?
 
